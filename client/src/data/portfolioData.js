@@ -9,7 +9,7 @@ const portfolioData = {
     github: "https://github.com/Nazir2608",
     linkedin: "https://linkedin.com/in/mdnazir2608",
     twitter: null,
-    resume: "/Md_Nazir_JavaDev_Resume.pdf"
+    resume: process.env.PUBLIC_URL + "/Md_Nazir_JavaDev_Resume.pdf",
   },
   skills: {
     languages: ["Java", "JavaScript", "PL/SQL", "HTML5", "CSS3"],

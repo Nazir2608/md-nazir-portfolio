@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "start": "cd client && npm start",
-  "build": "cd client && npm run build",
-  "deploy": "cd client && npm run deploy"
-},
+    "start": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "deploy": "cd client && npm run deploy"
+  },
   "keywords": [],
   "author": "Md Nazir <mdnazir2608@gmail.com>",
   "license": "MIT",
@@ -27,7 +27,7 @@
     "react-icons": "^5.5.0",
     "react-intersection-observer": "^9.16.0",
     "react-router-dom": "^7.7.1",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "^0.0.0",
     "react-toastify": "^11.0.5",
     "react-typed": "^2.0.12"
   },
