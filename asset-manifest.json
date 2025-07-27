@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/md-nazir-portfolio/static/css/main.730e6ed7.css",
+    "main.js": "/md-nazir-portfolio/static/js/main.5b62c6b0.js",
+    "index.html": "/md-nazir-portfolio/index.html",
+    "main.730e6ed7.css.map": "/md-nazir-portfolio/static/css/main.730e6ed7.css.map",
+    "main.5b62c6b0.js.map": "/md-nazir-portfolio/static/js/main.5b62c6b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.730e6ed7.css",
+    "static/js/main.5b62c6b0.js"
+  ]
+}
