@@ -24,22 +24,19 @@ const Contact = ({ data }) => {
     setSubmitStatus(null);
 
     try {
-      const response = await fetch('/api/contact', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
+      // ✅ TEMP: No backend, just log form data
+      console.log('📨 Form Submitted:', formData);
 
-      if (response.ok) {
-        setSubmitStatus('success');
-        setFormData({ name: '', email: '', subject: '', message: '' });
-      } else {
-        setSubmitStatus('error');
-      }
+      // 👉 Here you could integrate EmailJS (no server needed)
+      // await emailjs.sendForm('SERVICE_ID', 'TEMPLATE_ID', e.target, 'PUBLIC_KEY');
+
+      // ✅ Simulate a short delay like real submission
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+
+      setSubmitStatus('success');
+      setFormData({ name: '', email: '', subject: '', message: '' });
     } catch (error) {
-      console.error('Error submitting form:', error);
+      console.error('❌ Error submitting form:', error);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
@@ -117,6 +114,7 @@ const Contact = ({ data }) => {
             </div>
           </div>
 
+          {/* ✅ Contact Form */}
           <div className="contact-form-container">
             <form className="contact-form" onSubmit={handleSubmit}>
               <div className="form-group">
@@ -187,13 +185,13 @@ const Contact = ({ data }) => {
 
               {submitStatus === 'success' && (
                 <div className="form-message success">
-                  Thank you! Your message has been sent successfully.
+                   Thank you! Your message has been sent successfully.
                 </div>
               )}
 
               {submitStatus === 'error' && (
                 <div className="form-message error">
-                  Sorry, there was an error sending your message. Please try again.
+                   Sorry, there was an error sending your message. Please try again.
                 </div>
               )}
             </form>

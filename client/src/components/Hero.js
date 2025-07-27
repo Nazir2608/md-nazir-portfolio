@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useMemo } from 'react';
 import './Hero.css';
 
 const Hero = ({ data }) => {
@@ -6,12 +6,12 @@ const Hero = ({ data }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   
-  const titles = [
-    'Java Developer',
-    'Backend Engineer', 
-    'Spring Boot Developer',
-    'Problem Solver'
-  ];
+  const titles = useMemo(() => [
+  'Java Developer',
+  'Backend Engineer', 
+  'Spring Boot Developer',
+  'Problem Solver'
+], []);
 
   useEffect(() => {
     const currentTitle = titles[currentIndex];
@@ -185,7 +185,7 @@ const Hero = ({ data }) => {
                 <div className="code-line">
                   <span className="line-number">8</span>
                   <span className="code-text">
-                    {'    '}<span className="comment">// 2+ years of experience in Banking Domain</span>
+                    {'    '}<span className="comment">// 2+ years in Banking Domain</span>
                   </span>
                 </div>
                 <div className="code-line">
