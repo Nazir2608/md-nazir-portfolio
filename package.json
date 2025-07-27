@@ -2,9 +2,11 @@
   "name": "md-nazir-portfolio",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://Nazir2608.github.io/md-nazir-portfolio",
   "scripts": {
     "start": "cd client && npm start",
     "build": "cd client && npm run build",
+    "predeploy": "npm run build",
     "deploy": "cd client && npm run deploy"
   },
   "keywords": [],
