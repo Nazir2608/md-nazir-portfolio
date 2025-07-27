@@ -19,8 +19,7 @@ const Footer = ({ data }) => {
               <span className="brand-text">{data.name?.split(' ').map(n => n[0]).join('')}</span>
             </div>
             <p className="brand-description">
-              Senior Java Developer passionate about building scalable, 
-              efficient applications and sharing knowledge with the community.
+              Software Developer passionate about building scalable, efficient applications and contributing to the developer community.
             </p>
           </div>
 
