@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FaWhatsapp } from "react-icons/fa";
 import './Contact.css';
 
 const Contact = ({ data }) => {
@@ -107,6 +108,20 @@ const Contact = ({ data }) => {
                     <h4>LinkedIn</h4>
                     <a href={data.linkedin} target="_blank" rel="noopener noreferrer">
                       Connect with me
+                    </a>
+                  </div>
+                </div>
+              )}
+
+              {data.whatsapp && (
+                <div className="contact-method">
+                  <div className="method-icon">
+                    <FaWhatsapp size={24} color="#25D366" />
+                  </div>
+                  <div className="method-details">
+                    <h4>WhatsApp</h4>
+                    <a href={data.whatsapp} target="_blank" rel="noopener noreferrer">
+                      Message me
                     </a>
                   </div>
                 </div>

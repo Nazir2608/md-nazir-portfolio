@@ -8,6 +8,7 @@ const portfolioData = {
     phone: "+91-9135621974",
     github: "https://github.com/Nazir2608",
     linkedin: "https://linkedin.com/in/mdnazir2608",
+    whatsapp: "https://wa.me/919135621974", // Add this line
     twitter: null,
     resume: process.env.PUBLIC_URL + "/Md_Nazir_JavaDev_Resume.pdf",
   },
