@@ -137,7 +137,7 @@ const Hero = ({ data }) => {
                   <span className="code-button yellow"></span>
                   <span className="code-button green"></span>
                 </div>
-                <span className="code-title">Developer.java</span>
+                <span className="code-title">BackendEngineer.java</span>
               </div>
               <div className="code-content">
                 <div className="code-line">
@@ -149,47 +149,70 @@ const Hero = ({ data }) => {
                 <div className="code-line">
                   <span className="line-number">2</span>
                   <span className="code-text">
-                    <span className="keyword">public class</span> <span className="class-name">JavaDeveloper</span> {'{'}
+                    <span className="keyword">public class</span> <span className="class-name">BackendEngineer</span> {'{'}
                   </span>
                 </div>
                 <div className="code-line">
                   <span className="line-number">3</span>
                   <span className="code-text">
-                    {'    '}<span className="keyword">private final</span> <span className="class-name">String</span> <span className="property">name</span> = <span className="string">"Nazir"</span>;
+                    {'    '}<span className="keyword">private static final</span> <span className="class-name">String</span> <span className="property">NAME</span> = <span className="string">"Md Nazir"</span>;
                   </span>
                 </div>
                 <div className="code-line">
                   <span className="line-number">4</span>
                   <span className="code-text">
-                    {'    '}<span className="keyword">private final</span> <span className="class-name">List</span>{'<String>'} <span className="property">skills</span> = <span className="keyword">Arrays</span>.<span className="method">asList</span>(
+                    {'    '}<span className="keyword">private final</span> <span className="class-name">List</span>{'<String>'} <span className="property">expertise</span> = <span className="class-name">List</span>.<span className="method">of</span>(
                   </span>
                 </div>
                 <div className="code-line">
                   <span className="line-number">5</span>
                   <span className="code-text">
-                    {'        '}<span className="string">"Spring Boot"</span>, <span className="string">"Oracle PL/SQL"</span>, 
+                    {'        '}<span className="string">"Java & Spring Boot Microservices"</span>,
                   </span>
                 </div>
                 <div className="code-line">
                   <span className="line-number">6</span>
                   <span className="code-text">
-                    {'        '}<span className="string">"IBM MQ"</span>, <span className="string">"Microservices"</span>
+                    {'        '}<span className="string">"Distributed System Design"</span>,
                   </span>
                 </div>
                 <div className="code-line">
                   <span className="line-number">7</span>
                   <span className="code-text">
-                    {'    '});
+                    {'        '}<span className="string">"Quartz Scheduler & Backend Automation"</span>,
                   </span>
                 </div>
                 <div className="code-line">
                   <span className="line-number">8</span>
                   <span className="code-text">
-                    {'    '}<span className="comment">{/* 2+ years in Banking Domain */}</span>
+                    {'        '}<span className="string">"Oracle PL/SQL & SQL Performance Tuning"</span>,
                   </span>
                 </div>
                 <div className="code-line">
                   <span className="line-number">9</span>
+                  <span className="code-text">
+                    {'        '}<span className="string">"IBM MQ / JMS Messaging"</span>,
+                  </span>
+                </div>
+                <div className="code-line">
+                  <span className="line-number">10</span>
+                  <span className="code-text">
+                    {'        '}<span className="string">"CI/CD & Production Support"</span>
+                  </span>
+                </div>
+                <div className="code-line">
+                  <span className="line-number">11</span>
+                  <span className="code-text">
+                    {'    '});
+                  </span>
+                </div>
+                <div className="code-line">
+                  <span className="line-number">12</span>
+                  <span className="code-text">
+                  </span>
+                </div>
+                <div className="code-line">
+                  <span className="line-number">13</span>
                   <span className="code-text">
                     {'}'}
                   </span>

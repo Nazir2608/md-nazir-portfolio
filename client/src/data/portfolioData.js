@@ -60,6 +60,15 @@ const portfolioData = {
   ],
   projects: [
     {
+      id: 7,
+      title: "POS Suite – Scalable SaaS Point of Sale Platform",
+      description: "Multi-tenant, SaaS-ready Point of Sale platform combining POS, inventory, finance, and reporting into a single scalable system. Designed and developed a scalable Spring Boot backend supporting multiple businesses and stores. Implemented secure authentication and authorization using Spring Security with JWT. Built core modules for POS billing, inventory management, finance, customer management, and reporting. Designed REST APIs for real-time sales, stock updates, and financial workflows. Implemented database migrations using Flyway and optimized transactional queries in MySQL. Added rate limiting, captcha, and request blocking to improve platform security and abuse prevention. Structured the project as a clean monorepo supporting backend, business UI, and platform UI.",
+      technologies: ["Java 21", "Spring Boot 3", "Spring Security", "MySQL", "Flyway", "Quartz Scheduler", "React", "Redux Toolkit", "Tailwind CSS"],
+      github: null,
+      demo: null,
+      featured: true
+    },
+    {
       id: 6,
       title: "Enterprise Job Scheduler Platform",
       description: "Enterprise job scheduling platform for automating backend workflows using cron-based and on-demand execution with persistent, restart-safe scheduling. Designed and implemented a job scheduling system using Quartz Scheduler and Spring Boot, supporting cron-based and on-demand execution of HTTP jobs for internal service workflows. Built REST APIs to dynamically manage scheduled jobs without application restart, ensuring persistence and fault tolerance via a database-backed Quartz job store. Additionally developed a React + Material UI admin interface for job monitoring and manual execution.",
