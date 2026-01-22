@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import ThemeToggle from './ThemeToggle';
 import './Navbar.css';
 
-const Navbar = () => {
+const Navbar = ({ data, theme, toggleTheme }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
@@ -67,6 +68,21 @@ const Navbar = () => {
                 </button>
               </li>
             ))}
+            {data?.resume && (
+              <li className="nav-item">
+                <a 
+                  href={data.resume}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="nav-btn-resume"
+                >
+                  Resume
+                </a>
+              </li>
+            )}
+            <li className="nav-item">
+              <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
+            </li>
           </ul>
 
           {/* Mobile Menu Toggle */}

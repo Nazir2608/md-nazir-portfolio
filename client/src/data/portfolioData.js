@@ -2,7 +2,7 @@ const portfolioData = {
   personal: {
     name: "Md Nazir",
     title: "Java Developer | Backend Engineer",
-    bio: "Passionate Java Developer with 2+ years of experience building scalable backend systems using Spring Boot/MVC and Oracle PL/SQL, with a strong interest in debugging and efficiently solving complex challenges.",
+    bio: "Backend Engineer specializing in scalable Java systems, Spring Boot microservices, and performance optimization. Experienced in building enterprise-grade applications with Oracle and modern cloud technologies.",
     location: "New Delhi, India",
     email: "mdnazir2608@gmail.com",
     phone: "+91-9135621974",
@@ -21,10 +21,19 @@ const portfolioData = {
   },
   experience: [
     {
+      id: 3,
+      company: "The LCF Group",
+      position: "Software Engineer",
+      duration: "Nov 2025 - Present",
+      location: "Bengaluru, Karnataka, India",
+      description: "Working on enterprise-grade backend systems in the fintech/banking domain using Java and Spring-based services. Designed and implemented a Quartz-based job scheduling system to automate backend workflows using cron and on-demand triggers. Built REST APIs for managing scheduled jobs with persistent execution and restart safety. Contributed to system reliability, automation, and operational efficiency across backend services while supporting production systems and ensuring the stability of business-critical applications.",
+      technologies: ["Java", "Spring Boot", "Quartz Scheduler", "Microservices", "REST APIs", "SQL"]
+    },
+    {
       id: 1,
       company: "Opalina Technologies",
       position: "Java Developer",
-      duration: "May 2023 - Present",
+      duration: "May 2023 - Oct 2025",
       location: "Noida, India",
       description: "Collaborated on the development and maintenance of core banking modules, addressing real-time production issues to ensure uninterrupted service availability. Integrated IBM MQ messaging and implemented AES-based encryption for secure banking transactions. Led Oracle database migration and modernized SOAP-based services to JMS architecture.",
       technologies: ["Java", "Spring Boot", "Oracle", "IBM MQ", "WebSphere", "JMS", "REST APIs", "AES Encryption"]
@@ -51,56 +60,56 @@ const portfolioData = {
   ],
   projects: [
     {
-      id: 1,
-      title: "PeerLink – P2P File Sharing App",
-      description: "Engineered a Java 11 backend for a file-sharing system using invite codes & dynamic port allocation. Implemented WebSocket-based direct peer transfers and drag-and-drop UI built with Next.js/React.",
-      technologies: ["Java 11", "Maven", "WebSocket", "Next.js", "Node.js", "React"],
-      github: "https://github.com/Nazir2608/peerlink",
-      demo: null,
-      featured: true
-    },
-    {
-      id: 2,
-      title: "CRM – Customer Relationship Management System",
-      description: "Built a role-based CRM system featuring employee, manager, owner, and admin roles. Implemented user/client management, contract approvals, event scheduling, real-time notifications, CSV import/export, and PDF generation with RESTful APIs.",
-      technologies: ["Java 8", "Spring Boot", "Spring MVC", "Spring Data", "Hibernate", "Spring Security", "MySQL", "JUnit", "Thymeleaf", "Lombok", "OpenCV", "iText"],
-      github: "https://github.com/Nazir2608/crm-system",
-      demo: null,
-      featured: true
-    },
-    {
-      id: 3,
-      title: "Email Writer – AI-Powered Email Assistant",
-      description: "Built an AI-based email reply system using Gemini API with Gmail integration via Chrome Extension. Developed Spring Boot backend and React dashboard for generating, customizing, and serving AI-generated responses.",
-      technologies: ["Java", "Spring Boot", "React.js", "Gemini API", "Tailwind CSS", "Chrome Extensions"],
-      github: "https://github.com/Nazir2608/email-writer",
-      demo: null,
-      featured: true
-    },
-    {
-      id: 4,
-      title: "Banking Application (Core Modules)",
-      description: "Professional project at Opalina Technologies - Collaborated on core banking modules with real-time production issue resolution, IBM MQ messaging integration, AES encryption implementation, and Oracle database migration.",
-      technologies: ["Java", "Spring Boot", "Oracle", "IBM MQ", "WebSphere", "JMS", "REST APIs", "AES Encryption"],
+      id: 6,
+      title: "Enterprise Job Scheduler Platform",
+      description: "Enterprise job scheduling platform for automating backend workflows using cron-based and on-demand execution with persistent, restart-safe scheduling. Designed and implemented a job scheduling system using Quartz Scheduler and Spring Boot, supporting cron-based and on-demand execution of HTTP jobs for internal service workflows. Built REST APIs to dynamically manage scheduled jobs without application restart, ensuring persistence and fault tolerance via a database-backed Quartz job store. Additionally developed a React + Material UI admin interface for job monitoring and manual execution.",
+      technologies: ["Java", "Spring Boot", "Quartz Scheduler", "REST APIs", "MySQL", "React", "Material UI"],
       github: null,
       demo: null,
       featured: true
     },
     {
-      id: 5,
-      title: "Bookstore Inventory Management System",
-      description: "Built during training with CRUD operations and inventory tracking using Spring Boot framework with comprehensive inventory management features.",
-      technologies: ["Java", "Spring Boot", "MySQL", "Hibernate", "HTML5", "CSS3", "Bootstrap"],
-      github: "https://github.com/Nazir2608/bookstore-inventory",
+      id: 4,
+      title: "Core Banking Module – Transaction System",
+      description: "Engineered secure financial transaction modules handling high-concurrency requests. Integrated IBM MQ for reliable asynchronous messaging and implemented AES-256 encryption for sensitive data compliance. Optimized Oracle PL/SQL stored procedures, reducing query latency by 30%.",
+      technologies: ["Java 17", "Spring Boot", "IBM MQ", "Oracle PL/SQL", "AES-256", "Microservices"],
+      github: null,
       demo: null,
-      featured: false
+      featured: true
     },
     {
-      id: 6,
-      title: "Doctor Suggestion REST API",
-      description: "Designed RESTful API with Spring Boot architecture for doctor suggestion system with comprehensive medical consultation features.",
-      technologies: ["Java", "Spring Boot", "REST API", "MySQL", "JSON"],
-      github: "https://github.com/Nazir2608/doctor-suggestion-api",
+      id: 2,
+      title: "Enterprise CRM & RBAC System",
+      description: "Designed a role-based access control (RBAC) system for multi-tenant enterprise usage. Implemented Spring Security for granular permission management and automated PDF contract generation using iText. Built a real-time notification service using Spring Events to track user activities.",
+      technologies: ["Spring Boot", "Spring Security", "MySQL", "Hibernate", "Thymeleaf", "iText PDF"],
+      github: "https://github.com/Nazir2608/crm-system",
+      demo: null,
+      featured: true
+    },
+    {
+      id: 1,
+      title: "PeerLink – Real-Time P2P File Sharing",
+      description: "Architected a low-latency file sharing platform using WebSockets for direct peer-to-peer data transfer. Implemented dynamic port allocation and invite-code logic to bypass traditional cloud storage costs. Designed a non-blocking I/O backend with Java NIO principles.",
+      technologies: ["Java 11", "WebSockets", "Java NIO", "React", "Next.js", "P2P Protocols"],
+      github: "https://github.com/Nazir2608/peerlink",
+      demo: null,
+      featured: true
+    },
+    {
+      id: 3,
+      title: "AI Email Assistant – Gemini Integration",
+      description: "Developed a chrome extension backend that leverages Google's Gemini LLM to auto-draft email responses. Built a resilient REST API wrapper around the AI service with rate limiting and context caching to optimize token usage and response time.",
+      technologies: ["Spring Boot", "Google Gemini API", "REST Architecture", "Chrome Extension", "Rate Limiting"],
+      github: "https://github.com/Nazir2608/email-writer",
+      demo: null,
+      featured: true
+    },
+    {
+      id: 5,
+      title: "Bookstore Inventory System",
+      description: "Full-stack inventory tracking application with CRUD capabilities.",
+      technologies: ["Java", "Spring Boot", "MySQL", "Hibernate"],
+      github: "https://github.com/Nazir2608/bookstore-inventory",
       demo: null,
       featured: false
     }

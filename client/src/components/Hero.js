@@ -7,11 +7,11 @@ const Hero = ({ data }) => {
   const [isDeleting, setIsDeleting] = useState(false);
   
   const titles = useMemo(() => [
-  'Java Developer',
-  'Backend Engineer', 
-  'Spring Boot Developer',
-  'Problem Solver'
-], []);
+    'Java Developer',
+    'Backend Engineer', 
+    'Spring Boot Specialist',
+    'Microservices Architect'
+  ], []);
 
   useEffect(() => {
     const currentTitle = titles[currentIndex];
@@ -185,7 +185,7 @@ const Hero = ({ data }) => {
                 <div className="code-line">
                   <span className="line-number">8</span>
                   <span className="code-text">
-                    {'    '}<span className="comment">// 2+ years in Banking Domain</span>
+                    {'    '}<span className="comment">{/* 2+ years in Banking Domain */}</span>
                   </span>
                 </div>
                 <div className="code-line">

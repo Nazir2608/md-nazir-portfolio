@@ -53,6 +53,7 @@ code {
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 85px;
 }
 
 /* Custom scrollbar */

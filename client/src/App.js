@@ -9,8 +9,8 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import ThemeToggle from './components/ThemeToggle';
 import ScrollToTop from './components/ScrollToTop';
+import SEO from './components/SEO';
 import portfolioData from './data/portfolioData';
 
 function App() {
@@ -32,8 +32,8 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
-      <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
+      <SEO />
+      <Navbar data={portfolioData.personal} theme={theme} toggleTheme={toggleTheme} />
       <main>
         <Hero data={portfolioData.personal} />
         <About data={portfolioData.personal} />
