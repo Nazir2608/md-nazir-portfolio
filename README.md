@@ -1,115 +1,63 @@
-# Md Nazir - Java Developer Portfolio Website
+# Md Nazir — Portfolio Website
 
-A professional portfolio website showcasing Java development skills and experience, built with the MERN stack (MongoDB, Express, React, Node.js).
+### Java Backend Engineer | Fintech & Microservices | AI Integration
 
-## Features
+[![Live Demo](https://img.shields.io/badge/Live-Demo-6366F1?style=for-the-badge&logo=vercel&logoColor=white)](https://nazir2608.github.io/md-nazir-portfolio/)
+[![GitHub](https://img.shields.io/badge/GitHub-Nazir2608-181717?style=for-the-badge&logo=github)](https://github.com/Nazir2608)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-mdnazir2608-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/mdnazir2608)
 
-- **Modern Responsive Design**: Mobile-first responsive design inspired by anuraghazra.dev
-- **Dark/Light Theme Toggle**: User preference theme switching with localStorage persistence
-- **Professional Sections**: 
-  - Hero section with animated typing effect
-  - About section with personal information
-  - Skills showcase with categorized technologies
-  - Experience timeline with detailed descriptions
-  - Projects portfolio with GitHub links
-  - Contact form with email integration
-- **Smooth Animations**: Framer Motion animations and CSS transitions
-- **SEO Optimized**: Proper meta tags and semantic HTML structure
+A modern, responsive portfolio website showcasing 3+ years of experience as a **Java Backend Engineer** specializing in **Fintech, Microservices, and AI integrations**. Built with React, Node.js, and modern web technologies.
 
-## Tech Stack
+</div>
 
-### Frontend
-- **React 19**: Modern React with hooks and functional components
-- **React Router DOM**: Client-side routing
-- **Framer Motion**: Animation library
-- **React Icons**: Icon component library
-- **React Toastify**: Toast notifications
-- **Custom CSS**: Modern CSS with variables and responsive design
+---
 
-### Backend
-- **Node.js**: JavaScript runtime environment
-- **Express.js**: Web application framework (or simple HTTP server)
-- **CORS**: Cross-origin resource sharing
-- **Portfolio API**: RESTful endpoints serving portfolio data
+## ✨ Features
 
-## Local Development Setup
+- 🎨 **Modern UI/UX** — Sleek, professional design with glassmorphism & neon accents
+- 🌓 **Dark/Light Theme** — Persistent theme toggle with localStorage
+- 📱 **Fully Responsive** — Mobile-first, optimized for all devices
+- ⚡ **Smooth Animations** — Framer Motion + CSS animations throughout
+- 🎯 **Interactive Hero** — Typing animation with rotating titles
+- 💻 **Live Code Block** — Animated `BackendEngineer.java` showcase
+- 🟢 **Status Badge** — Live availability indicator
+- 📊 **Stats Counter** — 3+ years, 46+ repos, 100+ bugs fixed
+- 🔍 **Project Filtering** — Filter projects by category (Fintech, AI, Microservices, etc.)
+- 📨 **Contact Form** — Working contact form with email integration
+- 🚀 **SEO Optimized** — Meta tags, Open Graph, semantic HTML
+- 📈 **Performance** — Lighthouse score 95+
 
-   The server will start on `http://localhost:5000`
+---
 
-### Development Mode (Optional)
+## 🛠️ Tech Stack
 
-For development with hot reloading:
+### **Frontend**
+| Technology | Purpose |
+|---|---|
+| **React 19** | Modern hooks-based UI framework |
+| **React Router DOM** | Client-side routing |
+| **Framer Motion** | Smooth animations & transitions |
+| **React Icons** | Icon library (FA, SI) |
+| **React Toastify** | Toast notifications |
+| **Custom CSS** | Modern CSS variables, glassmorphism |
 
-1. **Start the backend server**
+### **Backend**
+| Technology | Purpose |
+|---|---|
+| **Node.js** | JavaScript runtime |
+| **Express.js** | REST API framework |
+| **CORS** | Cross-origin handling |
 
-   npm run server
+---
 
-2. **In a new terminal, start the React development server**
+## 📋 Sections
 
-   npm run client
-
-   This will start:
-   - Backend server on `http://localhost:5000`
-   - React development server on `http://localhost:3000`
-
-## Project Structure
-
-portfolio-website-md-nazir/
-├── client/                 # React frontend application
-│   ├── public/            # Public assets
-│   ├── src/               # React source code
-│   │   ├── components/    # React components
-│   │   ├── App.js         # Main application component
-│   │   ├── App.css        # Global styles
-│   │   └── index.js       # React entry point
-│   ├── package.json       # Frontend dependencies
-│   └── build/             # Production build (generated)
-├── server.js              # Backend server
-├── package.json           # Backend dependencies
-├── package-lock.json      # Dependency lock file
-└── README.md              # This file
-
-## Customization
-
-### Personal Information
-Edit the portfolio data in `server.js` to customize:
-- Personal details (name, title, bio, contact information)
-- Skills and technologies
-- Work experience
-- Projects
-- Education
-- Achievements
-
-### Styling
-- Main styles are in `client/src/App.css`
-- Component-specific styles are in respective CSS files
-- CSS variables for easy theme customization
-- Responsive breakpoints for mobile optimization
-
-### Content Sections
-React components in `client/src/components/`:
-- `Hero.js` - Landing section
-- `About.js` - Personal information
-- `Skills.js` - Technical skills
-- `Experience.js` - Work experience
-- `Projects.js` - Project portfolio
-- `Contact.js` - Contact form
-- `Footer.js` - Site footer
-
-## Portfolio Owner Information
-
-**Md Nazir**
-- **Position**: Java Developer | Backend Engineer  
-- **Experience**: 2+ years in backend development
-- **Location**: New Delhi, India
-- **Email**: mdnazir2608@gmail.com
-- **Phone**: +91-9135621974
-- **LinkedIn**: [mdnazir2608](https://linkedin.com/in/mdnazir2608)
-- **GitHub**: [Nazir2608](https://github.com/Nazir2608)
-
-### Key Expertise
-- **Backend Technologies**: Java 8/17, Spring Boot, Spring MVC, Hibernate
-- **Databases**: Oracle, MySQL, MongoDB
-- **Enterprise Tools**: IBM WebSphere, IBM MQ, Kafka
-- **Cloud & DevOps**: AWS, Docker, Kubernetes, Jenkins
-- **Current Role**: Java Developer at Opalina Technologies (Banking Domain)
+| Section | Description |
+|---|---|
+| 🏠 **Hero** | Animated intro with typing effect & live code block |
+| 👤 **About** | Personal story — Civil Engineer to Backend Engineer |
+| 💼 **Experience** | Timeline of roles at LCF Group, Opalina, CETPA |
+| 🚀 **Skills** | Categorized tech stack (Backend, AI, DevOps, etc.) |
+| 📦 **Projects** | 16+ featured projects from GitHub |
+| 🏆 **Achievements** | Career highlights & milestones |
+| 📞 **Contact** | Direct email, LinkedIn, GitHub, WhatsApp |
