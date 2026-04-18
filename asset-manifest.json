@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/md-nazir-portfolio/static/css/main.9422f7cb.css",
-    "main.js": "/md-nazir-portfolio/static/js/main.51680872.js",
+    "main.css": "/md-nazir-portfolio/static/css/main.00d84d41.css",
+    "main.js": "/md-nazir-portfolio/static/js/main.1d80dd28.js",
     "index.html": "/md-nazir-portfolio/index.html",
-    "main.9422f7cb.css.map": "/md-nazir-portfolio/static/css/main.9422f7cb.css.map",
-    "main.51680872.js.map": "/md-nazir-portfolio/static/js/main.51680872.js.map"
+    "main.00d84d41.css.map": "/md-nazir-portfolio/static/css/main.00d84d41.css.map",
+    "main.1d80dd28.js.map": "/md-nazir-portfolio/static/js/main.1d80dd28.js.map"
   },
   "entrypoints": [
-    "static/css/main.9422f7cb.css",
-    "static/js/main.51680872.js"
+    "static/css/main.00d84d41.css",
+    "static/js/main.1d80dd28.js"
   ]
 }
